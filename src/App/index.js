@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './App.scss';
+import WeatherForm from '../components/forms/WeatherForm';
 
 function App() {
   const [domWriting, setDomWriting] = useState('Nothing Here!');
@@ -11,6 +12,7 @@ function App() {
 
   return (
     <div className='App'>
+      <WeatherForm />
       <h2>INSIDE APP COMPONENT</h2>
       <div>
         <button
