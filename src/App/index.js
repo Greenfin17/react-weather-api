@@ -25,9 +25,6 @@ function App() {
       setIcon(report.weather[0].icon);
       setName(report.weather.name);
     });
-    setIcon('');
-    setTemp('50');
-    setCond('Clear');
   };
 
   return (
