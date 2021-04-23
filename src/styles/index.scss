@@ -4,3 +4,9 @@
 body {
   background-color: $favColor;
 }
+
+.weather-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
