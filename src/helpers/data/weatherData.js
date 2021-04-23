@@ -12,6 +12,8 @@ const getWeather = (locationObj) => new Promise((resolve, reject) => {
   axios.get(`${dbUrl}/weather?q=${locationObj.city}&units=imperial&appid=${apid}`).then((response) => {
     if (response.data) {
       resolve(response.data);
+    } else {
+      resolve([]);
     }
   }).catch((error) => reject(error));
 });

@@ -6,7 +6,12 @@ body {
 }
 
 .weather-container {
+  margin: 20px 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+.weather-card {
+  height: 400px;
 }
